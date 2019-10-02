@@ -1,0 +1,31 @@
+# Default settings for the KR client
+
+# This is the username used in template values. It defaults to your
+# actual username, so you probably don't need to change this.
+# E.g. "jwright"
+username=''
+
+# This is the upstream repo which holds the posts
+upstream_repo=''
+
+# This is the path on the filesystem containing the cloned upstream_repo
+journal_path=''
+
+# If you'd like a random fortune after you'v pushed a new post
+# and shared your knowledge with the world. High-5 you
+fortune=true
+
+# If you want to use custom templates, you can change these here. You'll
+# want to include the absolute path to the template
+[templates]
+md='knowledge_template.md'
+html='knowledge_template.html'
+ipynb='knowledge_template.ipynb'
+Rmd='knowledge_template.Rmd'
+daily_log='daily_log.md'
+
+# When a new post is created, you have the option to open it in an editor
+[editor]
+command='code'
+args=['-a', '{}']
+enabled=true
