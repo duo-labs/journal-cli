@@ -37,7 +37,7 @@ Pygments==2.2.0
 pyrsistent==0.14.11
 python-dateutil==2.7.2
 python-editor==1.0.3
-PyYAML==5.1
+PyYAML==5.3.1
 six==1.11.0
 smmap2==2.0.3
 soupsieve==1.9
