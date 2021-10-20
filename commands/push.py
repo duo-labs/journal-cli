@@ -46,7 +46,7 @@ def deploy_git(filepath):
         click.secho('[+] Adding {}'.format(diff.a_path), fg='green')
     repo.index.commit(generate_commit_message(filepath))
     # Pull the latest from upstream
-    subprocess.check_output(['git', 'checkout', 'master'],
+    subprocess.check_output(['git', 'checkout', 'main'],
                             cwd=config['journal_path'])
     subprocess.check_output(['git', 'pull', '--rebase'],
                             cwd=config['journal_path'])
