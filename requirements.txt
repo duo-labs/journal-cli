@@ -18,7 +18,7 @@ Flask-SQLAlchemy==2.3.2
 future==0.16.0
 gitdb2==2.0.3
 GitPython==2.1.9
-gunicorn==19.7.1
+gunicorn==20.1.0
 inflection==0.3.1
 ipython-genutils==0.2.0
 itsdangerous==0.24
@@ -31,7 +31,7 @@ MarkupSafe==1.0
 mistune==2.0.3
 nbconvert==6.5.1
 nbformat==4.4.0
-pandas==0.23.4
+pandas==1.4.4
 pandocfilters==1.4.2
 Pygments==2.7.4
 pyrsistent==0.14.11
