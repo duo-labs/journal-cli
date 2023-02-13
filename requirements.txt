@@ -24,7 +24,7 @@ ipython-genutils==0.2.0
 itsdangerous==0.24
 Jinja2>=2.10.1
 jsonschema==3.0.1
-jupyter-core==4.4.0
+jupyter-core==4.11.2
 Mako==1.2.2
 Markdown==2.6.11
 MarkupSafe==1.0
