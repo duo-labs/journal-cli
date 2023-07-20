@@ -33,7 +33,7 @@ nbconvert==6.5.1
 nbformat==4.4.0
 pandas==1.4.4
 pandocfilters==1.4.2
-Pygments==2.7.4
+Pygments==2.15.0
 pyrsistent==0.14.11
 python-dateutil==2.7.2
 python-editor==1.0.3
